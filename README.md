@@ -1,0 +1,3 @@
+# IMDb Scraper
+
+This script merely exists to scrape the top rated movies from a particular page of IMDb. I was in the mood to watch some western movies but wanted some popular / highly rated titles, so this idea came about. This will take the Western's page of IMDb (default sorted by popularity, i.e. number of user votes), and scrape the movie Title and Rating. After it fetches the list, it outputs the results in the same directory to a text file called `imdb_movies.txt`, sorted by highest to lowest. It does require [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/) to be installed. You can change the values within the code if you want more or less pages. 
